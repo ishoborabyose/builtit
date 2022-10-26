@@ -1,0 +1,52 @@
+.logo__about {
+  display: flex;
+  margin: 3rem auto;
+  width: 90%;
+  justify-content: space-between;
+}
+.logo__image {
+  width: 540px;
+  height: 400px;
+  display: flex;
+  padding-top: 20px;
+  align-self: center;
+}
+
+.logo__title {
+  width: 500px;
+  height: 32px;
+
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #5bccde;
+}
+
+.logo__subject {
+  width: 500px;
+  height: 96px;
+
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #486a6f;
+}
+
+.logo__description {
+  width: 480px;
+  height: 224px;
+
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #678c92;
+}
