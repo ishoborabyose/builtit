@@ -1,5 +1,5 @@
 import Layout from "../components/navigation/Layout";
-import Innovation from "../components/innovation/innovation";
+import Innovation from "../components/innovation/Innovation";
 import Logo from "../components/logo/Logo";
 import Feature from "../components/feature/Feature";
 import Instagram from "../components/instagram/Instagram";
