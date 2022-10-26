@@ -28,7 +28,7 @@ function Information() {
             <div className={classes.information__contact}>
               <div className={classes.information__call}>
                 {" "}
-                <Image src={call} />{" "}
+                <Image src={message} />{" "}
               </div>
               <div className={classes.information__info}>
                 <h4 className={classes.information__subtitle}>Tel</h4>
@@ -39,7 +39,7 @@ function Information() {
             <div className={classes.information__contact}>
               <div className={classes.information__call}>
                 {" "}
-                <Image src={call} />{" "}
+                <Image src={message} />{" "}
               </div>
               <div className={classes.information__info}>
                 <h4 className={classes.information__subtitle}>Tel</h4>

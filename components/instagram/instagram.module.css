@@ -24,7 +24,7 @@
   bottom: 0px;
   width: 100%;
 }
-
+/* 
 .instagram__title {
   width: 500px;
   height: 32px;
@@ -50,7 +50,7 @@
   line-height: 48px;
 
   color: #486a6f;
-}
+} */
 
 .instagram__images {
   display: grid;

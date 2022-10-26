@@ -49,9 +49,6 @@
 }
 
 .statistic__container {
-  /* margin: 3rem auto;
-    width: 90%;
-    max-width: 40rem; */
   padding-top: 50px;
   padding-bottom: 50px;
   margin: auto;
@@ -66,15 +63,6 @@
   max-width: 40rem;
 }
 
-.statistic__border {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 99.06%;
-  margin: 3rem auto;
-  width: 90%;
-  background: #678c92;
-}
 .statistic__comparisons {
   width: 1024px;
   height: 157px;

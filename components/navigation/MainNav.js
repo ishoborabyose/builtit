@@ -15,7 +15,7 @@ function MainNav() {
           <div className={classes.logo}></div>
           <p className={classes.logo__item}>
             {" "}
-            <Link href="/">BuilIt</Link>
+            <Link href="/">Buildit</Link>
           </p>
         </div>
         <ul className={classes.items}>

@@ -5,7 +5,7 @@ import gram3 from "../../public/images/gram3.png";
 import gram4 from "../../public/images/gram4.png";
 import gram5 from "../../public/images/gram5.png";
 import gram6 from "../../public/images/gram6.png";
-
+import Text from "../text/Text";
 import classes from "./team.module.css";
 function Team() {
   return (
@@ -13,8 +13,8 @@ function Team() {
       <div className={classes.bg}></div>
 
       <div className={classes.team__container}>
-        <h4 className={classes.team__title}>Our Team</h4>
-        <p className={classes.team__subject}>Let&#39;s meet</p>
+        <Text title="Our Team" description="Let&#39;s meet" />
+
         <div className={classes.team__images}>
           <div className={classes.team__image}>
             <div className={classes.team__profile}>
@@ -23,12 +23,12 @@ function Team() {
               <p className={classes.team__surname}>Worker</p>
             </div>
             <div className={classes.team__profile}>
-              <Image src={gram1} />
+              <Image src={gram2} />
               <p className={classes.team__name}>Name Surname</p>
               <p className={classes.team__surname}>Worker</p>
             </div>
             <div className={classes.team__profile}>
-              <Image src={gram1} />
+              <Image src={gram3} />
               <p className={classes.team__name}>Name Surname</p>
               <p className={classes.team__surname}>Worker</p>
             </div>
@@ -36,17 +36,17 @@ function Team() {
 
           <div className={classes.team__image}>
             <div className={classes.team__profile}>
-              <Image src={gram1} />
+              <Image src={gram4} />
               <p className={classes.team__name}>Name Surname</p>
               <p className={classes.team__surname}>Worker</p>
             </div>
             <div className={classes.team__profile}>
-              <Image src={gram1} />
+              <Image src={gram5} />
               <p className={classes.team__name}>Name Surname</p>
               <p className={classes.team__surname}>Worker</p>
             </div>
             <div className={classes.team__profile}>
-              <Image src={gram1} />
+              <Image src={gram6} />
               <p className={classes.team__name}>Name Surname</p>
               <p className={classes.team__surname}>Worker</p>
             </div>

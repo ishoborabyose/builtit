@@ -24,7 +24,7 @@
   max-width: 40rem; */
   margin: auto;
 }
-.logos {
+/* .logos {
   display: flex;
 
   gap: 40px;
@@ -41,7 +41,7 @@
   margin: 3rem auto;
   width: 90%;
   background: #678c92;
-}
+} */
 
 .logo__about {
   display: flex;

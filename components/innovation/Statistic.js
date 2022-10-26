@@ -1,19 +1,15 @@
 import Image from "next/image";
 import Icon1 from "../../public/vectors/icon1.svg";
-import vector1 from "../../public/vectors/vector1.svg";
-import vector2 from "../../public/vectors/vector2.svg";
-import vector3 from "../../public/vectors/vector3.svg";
-import vector4 from "../../public/vectors/vector4.svg";
-import vector5 from "../../public/vectors/vector5.svg";
+import Symbol from "../symbol/Symbol";
 import classes from "./Statistic.module.css";
+import Text from "../text/Text";
 
 function Statistic() {
   return (
     <section className={classes.statistic}>
       <div className={classes.bg}></div>
 
-      <h4 className={classes.statistic__title}>Socials</h4>
-      <p className={classes.statistic__subject}>On statistic</p>
+      <Text title="Socials" description="On statistic" />
 
       <div className={classes.statistic__comparisons}>
         <div className={classes.statistic__comparison}>
@@ -41,17 +37,7 @@ function Statistic() {
         </div>
       </div>
 
-      <div className={classes.statistic__container}>
-        <hr className={classes.statistic__border}></hr>
-        <div className={classes.statistics}>
-          <Image src={vector1} />
-          <Image src={vector2} />
-          <Image src={vector3} />
-          <Image src={vector4} />
-          <Image src={vector5} />
-        </div>
-        <hr className={classes.statistic__border}></hr>
-      </div>
+      <Symbol />
     </section>
   );
 }

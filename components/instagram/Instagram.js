@@ -5,7 +5,7 @@ import gram3 from "../../public/images/gram3.png";
 import gram4 from "../../public/images/gram4.png";
 import gram5 from "../../public/images/gram5.png";
 import gram6 from "../../public/images/gram6.png";
-
+import Text from "../text/Text";
 import classes from "./instagram.module.css";
 function Instagram() {
   return (
@@ -13,8 +13,8 @@ function Instagram() {
       <div className={classes.bg}></div>
 
       <div className={classes.instagram__container}>
-        <h4 className={classes.instagram__title}>Socials</h4>
-        <p className={classes.instagram__subject}>On Instagram</p>
+        <Text title="Socials" description="On Instagram" />
+
         <div className={classes.instagram__images}>
           <div className={classes.instagram__image}>
             <Image src={gram1} />
