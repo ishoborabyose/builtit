@@ -14,7 +14,7 @@ function Team() {
 
       <div className={classes.team__container}>
         <h4 className={classes.team__title}>Our Team</h4>
-        <p className={classes.team__subject}>Let's meet</p>
+        <p className={classes.team__subject}>Let&#39;s meet</p>
         <div className={classes.team__images}>
           <div className={classes.team__image}>
             <div className={classes.team__profile}>
