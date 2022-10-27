@@ -6,23 +6,26 @@ import gram4 from "../../public/images/gram4.png";
 import gram5 from "../../public/images/gram5.png";
 import gram6 from "../../public/images/gram6.png";
 import Text from "../text/Text";
-import classes from "./instagram.module.css";
+import bg from "../../public/vectors/bg-logo.svg";
+
 function Instagram() {
   return (
-    <section className={classes.instagram}>
-      <div className={classes.bg}></div>
+    <section className="justify-center padding-[52.5px] items-center p-5 relative gap-[60px]">
+      <div className="w-full absolute bg-cover bg-no-repeat top-0 left-0 right-0 bottom-0 -z-20">
+        <Image src={bg} />
+      </div>
 
-      <div className={classes.instagram__container}>
+      <div className="container">
         <Text title="Socials" description="On Instagram" />
 
-        <div className={classes.instagram__images}>
-          <div className={classes.instagram__image}>
+        <div className="grid gap-[10px] justify-center">
+          <div className="flex gap-[10px]">
             <Image src={gram1} />
             <Image src={gram2} />
             <Image src={gram3} />
           </div>
 
-          <div className={classes.instagram__image}>
+          <div className="flex gap-[10px]">
             <Image src={gram4} />
             <Image src={gram5} />
             <Image src={gram6} />
